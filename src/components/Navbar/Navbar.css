@@ -1,0 +1,50 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    /* space around the contents */
+    justify-content: space-between; 
+}
+
+.n-left{
+    /* specify the content of equal length */
+    flex: 1;
+    align-items: center;
+    display: flex;
+    /* gap between items of this flexbox */
+    gap: 2rem;
+}
+
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    /* normal font weight */
+    font-weight: 400px;
+}
+
+.n-list{
+    flex: 10;
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    /* set the thickness of the margin area */
+    margin-right: 4rem;
+}
+
+.n-list>ul>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.n-button{
+    flex: 2;
+}
+
